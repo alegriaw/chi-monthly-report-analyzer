@@ -108,7 +108,13 @@ install.bat
 
 1. **Clone or download the project files**
 
-2. **Create a virtual environment**:
+2. **Configure Git authentication** (for developers):
+   ```bash
+   ./setup-git.sh
+   ```
+   See [GITHUB_SETUP.md](GITHUB_SETUP.md) for detailed setup instructions.
+
+3. **Create a virtual environment**:
    ```bash
    python3 -m venv chi_analyzer_env
    ```
@@ -360,6 +366,29 @@ The application is built with:
 - **Virtual Environment**: `chi_analyzer_env/` (Python venv)
 - **Platform**: Cross-platform (developed on Ubuntu, Windows compatible)
 - **Dependencies**: See `requirements.txt` for complete list
+
+### GitHub Repository Setup
+
+For developers working with the repository, authentication setup is required since GitHub no longer supports password authentication.
+
+**Quick Setup (Recommended):**
+```bash
+./setup-git.sh
+```
+
+The setup script provides three authentication methods:
+1. **SSH Key Authentication** (recommended for development)
+2. **Personal Access Token** (HTTPS-based)
+3. **GitHub CLI** (if installed)
+
+**Manual Setup:**
+See [GITHUB_SETUP.md](GITHUB_SETUP.md) for detailed manual configuration instructions including:
+- Creating Personal Access Tokens
+- SSH key generation and configuration
+- Step-by-step authentication setup
+- Troubleshooting common issues
+
+**Repository URL:** https://github.com/alegriaw/chi-monthly-report-analyzer
 
 ### Testing and Quality Assurance
 

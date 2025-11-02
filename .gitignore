@@ -64,3 +64,7 @@ q.zip
 
 # WSL specific
 *.bat
+
+# Git setup scripts
+setup-git.sh
+git-push.sh
