@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+chi_analyzer_env/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.log.*
+amazon_q_cli.log*
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Generated files
+ai_summary_*.md
+*.pdf
+*.xlsx
+*.Zone.Identifier
+
+# Test files
+test_*.py
+debug*.py
+simulate*.py
+validate*.py
+
+# Amazon Q
+q/
+q.zip
+
+# WSL specific
+*.bat
